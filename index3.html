@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MODELOS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('imagenes/sg4.jpg');
+        }
+
+        header {
+            background-color: #0d1f2d;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            background-image: url('imagenes/sg4.jpg');
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-family:cursive;
+            color: white;
+
+            }
+
+        header p {
+            margin: 10px 0;
+            font-size: 18px;
+
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .hero-section {
+            background: url('https://via.placeholder.com/1500x600?text=Toyota+Cars') no-repeat center center/cover;
+            padding: 80px 20px;
+            text-align: center;
+            color: #1a2220;
+        }
+
+        .hero-section h2 {
+            font-size: 48px;
+            margin: 0;
+            color: darkred;
+        }
+
+        .hero-section p {
+            font-size: 24px;
+            margin: 20px 0;
+            color: white;
+        }
+
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #0d1f2d;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .cars-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            margin-top: 20px;
+          }
+
+        @media (max-width: 768px) {
+            .cars-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .car-info-container {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            background-color: #111212;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-info-container h1 {
+            font-size: 2em;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .car-info-container p {
+            font-size: 1.1em;
+            color: white;
+            line-height: 1.6;
+            margin: 5px 0;
+        }
+
+        .car-image, .car-video {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .car-specs {
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .car-specs div {
+            font-size: 1.1em;
+            color: white;
+        }
+
+        .car-specs div strong {
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0d1f2d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1> Toyota es toyota </h1>
+    <p>Encuentra tu próximo vehículo Toyota con nosotros</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="#">Contáctanos</a>
+</nav>
+
+<!-- Sección de Héroe -->
+<section class="hero-section">
+    <h2>¡Bienvenido a Toyota!</h2>
+    <p>Explora una amplia gama de vehículos con tecnología avanzada, eficiencia de combustible y seguridad.</p>
+    <a href="index2.html" class="cta-button">Ver Modelos</a>
+    <video autoplay loop muted class="background-video">
+        <source src="imagenes/video.mp4" type="video/mp4">
+        <source src="imagenes/video.webm" type="video/webm">
+        Tu navegador no soporta el video.
+    </video>
+</section>
+
+<!-- Sección de Modelos Destacados -->
+<section class="cars-container">
+    <div class="car-info-container">
+        <h1>Toyota Corolla</h1>
+        <video class="car-video" autoplay loop muted>
+            <source src="imagenes/ale.mp4" type="video/mp4">
+            <source src="imagenes/video_corolla.webm" type="video/webm">
+            Tu navegador no soporta el video.
+        </video>
+        <div class="car-specs">
+            <div><strong>Marca:</strong> Toyota</div>
+            <div><strong>Modelo:</strong> Cross</div>
+            <div><strong>Año:</strong> 2025</div>
+            <div><strong>Color:</strong> Blanco</div>
+            <div><strong>Motor:</strong> 2.0L Dual VVT-iE 16V DOHC Flex</div>
+            <div><strong>Potencia:</strong> 122 HP</div>
+        </div>
+        <p><strong>Descripción:</strong> El Toyota Corolla es un sedán confiable y eficiente en combustible. Ideal para la ciudad y viajes largos.</p>
+    </div>
+
+    <div class="car-info-container">
+        <h1>Toyota Camry</h1>
+        <video class="car-video" autoplay loop muted>
+            <source src="imagenes/ale1.mp4" type="video/mp4">
+            <source src="imagenes/video_mustang.webm" type="video/webm">
+            Tu navegador no soporta el video.
+        </video>
+        <div class="car-specs">
+            <div><strong>Marca:</strong> Toyota</div>
+            <div><strong>Modelo:</strong>LE HEV</div>
+            <div><strong>Año:</strong> 2023</div>
+            <div><strong>Color:</strong> Gris</div>
+            <div><strong>Motor:</strong>Un motor V6 de 3.5 litros</div>
+            <div><strong>Potencia:</strong> 225 hp</div>
+        </div>
+        <p><strong>Descripción:</strong> El Toyota Camry es un sedán de lujo, con características de confort y tecnología avanzada.</p>
+    </div>
+
+    <div class="car-info-container">
+        <h1>Toyota RAV4 </h1>
+        <video class="car-video" autoplay loop muted>
+            <source src="imagenes/ale2.mp4" type="video/mp4">
+            <source src="imagenes/video_camaro.webm" type="video/webm">
+            Tu navegador no soporta el video.
+        </video>
+        <div class="car-specs">
+            <div><strong>Marca:</strong> Toyota</div>
+            <div><strong>Modelo:</strong> RAV4 LE</div>
+            <div><strong>Año:</strong> 2024</div>
+            <div><strong>Color:</strong> Negro</div>
+            <div><strong>Motor:</strong> 2.5 L. </div>
+            <div><strong>Potencia:</strong>  203 hp</div>
+        </div>
+        <p><strong>Descripción:</strong> El Toyota RAV4 es un SUV compacto, perfecto para aventuras en carretera o para el uso diario..</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Toyota | Todos los derechos reservados</p>
+</footer>
+</body>
+</html>

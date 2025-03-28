@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Carro</title>
+    <style>
+        /* Estilos generales del cuerpo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('imagenes/toyota.jpeg');
+        }
+
+        /* Contenedor principal para el contenido */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color:#FFEFD5;
+        }
+
+        /* Título principal */
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        header {
+            background-color: white;
+            color: white;
+            padding: 70px;
+             background-image: url('imagenes/sg.png'); 
+             background-attachment: fixed;
+        }
+          header h1 {
+            margin: 0;
+            font-size: 36px;
+              color: black;}
+
+        /* Sección para información general del carro */
+        .car-details {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .car-section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+
+        /* Estilo para las imágenes */
+        .car-section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Información textual sobre el carro */
+        .car-info {
+            flex: 1;
+            padding: 10px;
+            max-width: 600px;
+        }
+
+        .car-info h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .car-info p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo de las especificaciones del carro */
+        .car-specs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .car-specs div {
+            font-size: 1.1em;
+            color: #444;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-specs div strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Descripción final del carro */
+        .car-description {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-top: 30px;
+        }
+
+        /* Estilo de pie de página */
+        footer {
+            text-align: center;
+            color: black;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }  
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>DESCRIPCION DE TOYOTA HILUX 2025 </h1>
+</header>
+
+    <div class="container">
+        <h1>Detalles </h1>
+        
+        <div class="car-details">
+            <!-- Sección de información general del carro -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>Un interior más refinado</h2>
+                    <p>El habitáculo de la Toyota Hilux nunca ha sido el lugar más lujoso y refinado del mundo, pero es cierto que con el paso del tiempo ha mejorado, al menos en apariencia. Sigue siendo, eso sí, robusto y resistente. Con la actualización que ha efectuado el fabricante se han mejorado también algunos aspectos del habitáculo, que estrena un nuevo sistema de infoentretenimiento con Apple CarPlay y Android Auto y una instrumentación visualmente más atractiva que, eso sí, continúa siendo «tradicional».</p>
+                    <p>Se han mejorado también algunos materiales de revestimiento, añadiendo además una ligera iluminación ambiental en las puertas que mejora la percepción de calidad, al menos a nivel visual. Además, un nuevo equipo de sonido firmado por JBL ofrecerá hasta 800W de pura potencia sonora.</p>
+                </div>
+                <img src="imagenes/info1.jpg" alt="Imagen principal del carro">
+            </div>
+
+
+            <!-- Sección de asientos -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>Asientos</h2>
+                    <p>Los asientos de la Toyota Hilux, fieles a la tradición de la camioneta, priorizan la durabilidad y la funcionalidad sobre el lujo extremo. Históricamente, han sido diseñados para resistir el desgaste del trabajo duro y las condiciones adversas, aunque con el tiempo, Toyota ha introducido mejoras notables. En las versiones más recientes, se observa un esfuerzo por aumentar la comodidad, con mejores materiales y un diseño ergonómico más cuidado. Sin embargo, siguen siendo asientos robustos, pensados para soportar el uso intensivo. En las actualizaciones recientes, se han incorporado ajustes más precisos, y en algunas versiones, tapicería de mayor calidad, aunque la esencia de resistencia se mantiene. En resumen, los asientos de la Hilux ofrecen una combinación de durabilidad comprobada y mejoras graduales en confort, adaptándose a las necesidades tanto del trabajo como del uso diario..</p>
+                </div>
+                <img src="imagenes/info2.jpeg" alt="Imagen de los asientos">
+            </div>
+
+<div class="car-section">
+                <div class="car-info">
+                    <h2> Tablero </h2>
+                    <p>El tablero de la Toyota Hilux, aunque funcional y robusto, ha evolucionado con el tiempo, incorporando mejoras en diseño y tecnología; tradicionalmente, ha priorizado la claridad y la facilidad de uso, con indicadores analógicos grandes y legibles, pero las versiones recientes incluyen pantallas digitales para el sistema de infoentretenimiento y la instrumentación, ofreciendo una experiencia más moderna y conectada; los materiales utilizados son resistentes y duraderos, pensados para soportar el uso intensivo, y la disposición de los controles es intuitiva, facilitando el acceso a las funciones principales durante la conducción.</p>
+                </div>
+                <img src="imagenes/info4.jpeg" alt="Imagen del tablero">
+            </div>
+            <!-- Sección del tablero -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>El exterior </h2>
+                    <p>El exterior de la Toyota Hilux se distingue por su diseño robusto y funcional, combinando líneas sólidas y una parrilla frontal imponente que transmiten durabilidad, mientras que su considerable altura libre al suelo y la caja de carga adaptable la hacen ideal para terrenos difíciles y transporte de cargas pesadas; las actualizaciones recientes han incorporado elementos modernos como faros LED y diseños de rines variados, manteniendo su esencia resistente y añadiendo un toque de refinamiento y estilo moderno, con detalles como espejos laterales ajustables y faros antiniebla que mejoran tanto la comodidad como la seguridad.</p>
+                </div>
+                <img src="imagenes/info3.jpeg" alt="Imagen del tablero">
+            </div>
+
+            <!-- Especificaciones del carro -->
+            <div class="car-specs">
+                <div><strong>Marca:</strong> Toyota</div>
+                <div><strong>Modelo:</strong> Hilux</div>
+                <div><strong>Año:</strong> 2025</div>
+                <div><strong>Motor:</strong> 2.8 L con 201 HP</div>
+                <div><strong>Potencia:</strong> 164 hp a 5,200 rpm</div>
+                <div><strong>Color:</strong> Gris</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

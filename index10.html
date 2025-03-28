@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Carro</title>
+    <style>
+        /* Estilos generales del cuerpo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('imagenes/toyota.jpeg');
+        }
+
+        /* Contenedor principal para el contenido */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color:#FFEFD5;
+        }
+
+        /* Título principal */
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        header {
+            background-color: white;
+            color: white;
+            padding: 70px;
+             background-image: url('imagenes/alexa1.png'); 
+             background-attachment: fixed;
+        }
+          header h1 {
+            margin: 0;
+            font-size: 36px;
+              color: white;}
+
+        /* Sección para información general del carro */
+        .car-details {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .car-section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+
+        /* Estilo para las imágenes */
+        .car-section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Información textual sobre el carro */
+        .car-info {
+            flex: 1;
+            padding: 10px;
+            max-width: 600px;
+        }
+
+        .car-info h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .car-info p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo de las especificaciones del carro */
+        .car-specs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .car-specs div {
+            font-size: 1.1em;
+            color: #444;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-specs div strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Descripción final del carro */
+        .car-description {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-top: 30px;
+        }
+
+        /* Estilo de pie de página */
+        footer {
+            text-align: center;
+            color: #aaa;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>DESCRIPCION DE TOYOTA LAND CRUISER </h1>
+</header>
+
+    <div class="container">
+        <h1>Detalles </h1>
+        
+        <div class="car-details">
+            <!-- Sección de información general del carro -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>El interior </h2>
+                    <p>El interior de la Toyota Land Cruiser  ha sido meticulosamente diseñado para fusionar robustez con lujo moderno, presentando una cabina espaciosa con asientos de cuero premium, opciones de calefacción y ventilación, y una configuración versátil para acomodar hasta siete pasajeros; la tecnología se manifiesta con una pantalla táctil central de gran tamaño para el sistema de infoentretenimiento, compatible con Apple CarPlay y Android Auto, junto con un panel de instrumentos digital que ofrece información clara y personalizable; los materiales de alta calidad y los detalles de acabado refinados, como el sistema de audio JBL premium y el conjunto de seguridad Toyota Safety Sense 3.0, elevan la experiencia de conducción, asegurando confort y seguridad tanto en la ciudad como en terrenos difíciles.</p>
+                </div>
+                <img src="imagenes/info20.jpeg" alt="Imagen principal del carro">
+            </div>
+            <!-- Sección de asientos -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>Asientos</h2>
+                    <p>Los asientos de la Toyota Land Cruiser están diseñados para ofrecer una experiencia de confort superior, combinando materiales de alta calidad como cuero premium con funciones de calefacción y ventilación para adaptarse a diversas condiciones climáticas; la configuración interior es versátil, permitiendo acomodar hasta siete pasajeros con la opción de plegar la tercera fila para maximizar el espacio de carga, mientras que el diseño ergonómico asegura soporte y comodidad tanto en la conducción diaria como en las aventuras todoterreno.</p>
+                </div>
+                <img src="imagenes/info21.jpg" alt="Imagen de los asientos">
+            </div>
+            <!-- Sección del tablero -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>El exterior </h2>
+                    <p>El exterior de la Toyota Land Cruiser, irradia robustez y elegancia, combinando una parrilla frontal imponente con faros LED modernos y líneas musculosas que resaltan su capacidad todoterreno; los detalles cromados, los rines de aleación de diseño exclusivo y la variedad de opciones de color permiten personalizar su apariencia, mientras que la mayor altura libre al suelo y la configuración de carrocería resistente aseguran su desempeño tanto en la ciudad como en terrenos difíciles</p>
+                </div>
+                <img src="imagenes/info22.jpg" alt="Imagen del tablero">
+            </div>
+
+            <!-- Especificaciones del carro -->
+            <div class="car-specs">
+                <div><strong>Marca:</strong> Toyota</div>
+                <div><strong>Modelo:</strong> LC300</div>
+                <div><strong>Año:</strong> 2024</div>
+                <div><strong>Motor:</strong>V6 biturbo de 3,3 L</div>
+                <div><strong>Potencia:</strong> 204 CV. </div>
+                <div><strong>Color:</strong> Rojo</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

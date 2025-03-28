@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Carro</title>
+    <style>
+        /* Estilos generales del cuerpo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('imagenes/toyota.jpeg');
+        }
+
+        /* Contenedor principal para el contenido */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color:#FFEFD5;
+        }
+
+        /* Título principal */
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        header {
+            background-color: white;
+            color: white;
+            padding: 70px;
+             background-image: url('imagenes/sg.png'); 
+             background-attachment: fixed;
+        }
+          header h1 {
+            margin: 0;
+            font-size: 36px;
+              color: black;}
+
+        /* Sección para información general del carro */
+        .car-details {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .car-section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+
+        /* Estilo para las imágenes */
+        .car-section img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Información textual sobre el carro */
+        .car-info {
+            flex: 1;
+            padding: 10px;
+            max-width: 600px;
+        }
+
+        .car-info h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .car-info p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo de las especificaciones del carro */
+        .car-specs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .car-specs div {
+            font-size: 1.1em;
+            color: #444;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-specs div strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Descripción final del carro */
+        .car-description {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+            margin-top: 30px;
+        }
+
+        /* Estilo de pie de página */
+        footer {
+            text-align: center;
+            color: #aaa;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>DESCRIPCION DE TOYOTA 4RUNNER </h1>
+</header>
+
+    <div class="container">
+        <h1>Detalles </h1>
+        
+        <div class="car-details">
+            <!-- Sección de información general del carro -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>El interior </h2>
+                    <p>El interior de la Toyota 4Runner 2025 ha sido rediseñado para combinar robustez con tecnología moderna y confort, ofreciendo una pantalla táctil de hasta 14 pulgadas con compatibilidad inalámbrica para Apple CarPlay y Android Auto, un sistema de audio JBL premium en las versiones de alta gama, y asientos con opciones de tapicería en SofTex® o cuero, con calefacción y ventilación disponibles, todo ello complementado por el sistema de seguridad Toyota Safety Sense 3.0 estándar y una variedad de características que mejoran la experiencia de conducción tanto en la ciudad como en terrenos difíciles.</p>
+                </div>
+                <img src="imagenes/info8.jpg" alt="Imagen principal del carro">
+            </div>
+            <!-- Sección de asientos -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>Asientos</h2>
+                    <p>Los asientos de la Toyota 4Runner 2025 han sido diseñados para equilibrar la robustez con el confort moderno, ofreciendo opciones de tapicería en SofTex® o cuero, con calefacción y ventilación disponibles para mayor comodidad en diversas condiciones climáticas; la versatilidad es clave, con la posibilidad de configurar el interior para cinco o siete pasajeros, y la tercera fila plegable que maximiza el espacio de carga, mientras que el diseño ergonómico asegura soporte y comodidad tanto en la conducción diaria como en aventuras todoterreno..</p>
+                </div>
+                <img src="imagenes/info9.jpg" alt="Imagen de los asientos">
+            </div>
+            <!-- Sección del tablero -->
+            <div class="car-section">
+                <div class="car-info">
+                    <h2>El exterior </h2>
+                    <p>El exterior de la Toyota 4Runner 2025 se presenta con un diseño que equilibra la herencia robusta con toques modernos y sofisticados, destacando su parrilla delantera imponente, faros LED estilizados y líneas musculosas que subrayan su capacidad todoterreno, mientras que la incorporación de detalles como rines de aleación de diseño exclusivo y la disponibilidad de acabados exteriores en negro para la versión Platinum, junto con una mayor altura libre al suelo, refuerzan su carácter aventurero y su adaptabilidad tanto a la vida urbana como a la exploración de terrenos difíciles.</p>
+                </div>
+                <img src="imagenes/info10.jpg" alt="Imagen del tablero">
+            </div>
+
+            <!-- Especificaciones del carro -->
+            <div class="car-specs">
+                <div><strong>Marca:</strong> Toyota</div>
+                <div><strong>Modelo:</strong> TRD Pro </div>
+                <div><strong>Año:</strong> 2025</div>
+                <div><strong>Motor:</strong> 4.0L V6, el 2.4L</div>
+                <div><strong>Potencia:</strong> hasta 270 caballos de fuerza</div>
+                <div><strong>Color:</strong> Blizzard Pearl</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

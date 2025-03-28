@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Toyota Casabaca</title>
+    <style>
+           body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+              background-image: url('imagenes/sg4.jpg');
+        }.header {
+        background-color: #e30613;
+        color: black;
+        padding: 20px 0;
+        text-align: center;
+        animation: slideDown 1s ease-in-out;
+    }
+    
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        animation: fadeInUp 1s 0.5s forwards;
+    }
+    
+    h1, h2 {
+        text-align: center;
+        color: #e30613;
+        color: black;
+    }
+.model {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7  ;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 6px; /* Ajusta el padding para dar más espacio a las letras */
+    flex-wrap: wrap; /* Esto permite que los elementos se ajusten si no caben en una sola línea */
+    width: 50%; /* Asegura que ocupe todo el espacio disponible */
+    max-width: 1200px; /* Puedes ajustar el ancho máximo si deseas limitarlo */
+    box-sizing: border-box; /* Esto asegura que el padding no afecte el tamaño total */
+}
+
+.model > * {
+    flex: 1; /* Hace que los elementos dentro de .model se distribuyan adecuadamente */
+    margin: 5px; /* Agrega un pequeño espacio entre los elementos dentro de .model */
+}
+
+    
+    .contact-info{
+        margin-bottom: 20px;
+        color: black;
+
+    } .form-section {
+        margin-bottom: 20px;
+        color: darkred;
+        font-size: 18px;
+        font-family:fantasy;
+    }
+    
+    .contact-info p {
+        font-size: 18px;
+        line-height: 1.6;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .contact-info p:hover {
+        transform: scale(1.05);
+    }
+    
+    .contact-info a {
+        color: #e30613;
+        text-decoration: none;
+    }
+    
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-group input, .form-group textarea {
+        width: 90%;
+        padding: 70px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+   .form-group input[type="submit"] {
+    background-color: #e30613;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 12px; /* Reducir el tamaño de la fuente */
+    transition: background 0.3s ease-in-out;
+    padding: 6px 12px; /* Reducir el padding (alto y ancho) */
+    width: auto; /* Ajustar el ancho para que se ajuste al contenido */
+}
+
+    
+    .form-group input[type="submit"]:hover {
+        background-color: #c20510;
+    }
+    
+    .social-links {
+        text-align: center;
+        margin-top: 20px;
+        animation: fadeInUp 1s 1s forwards;
+        color: white;
+    }
+    
+    .social-links a {
+        margin: 0 10px;
+        color: #fad104 ;
+        font-size: 24px;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+        font-family: monospace;
+    }
+    
+    .social-links a:hover {
+        transform: scale(1.2);
+    }
+    
+    .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+    
+    /* Animaciones */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes slideDown {
+        from {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Contacto - Toyota Casabaca</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="contact-info">
+              <div class="model">
+            <p><strong>Teléfono:</strong> <a href="tel:1800227222">1800 227 222</a></p>
+            </div>
+             <div class="model">
+            <p><strong>WhatsApp Vehículos Nuevos:</strong> <a href="https://wa.me/593962930000" target="_blank">+593 96 293 0000</a></p>
+            </div>
+             <div class="model">
+            <p><strong>WhatsApp Talleres:</strong> <a href="https://wa.me/593999900307" target="_blank">+593 99 990 0307</a></p>
+            </div>
+             <div class="model">
+            <p><strong>Asistencia Vial 24/7:</strong> <a href="tel:0983323323">098 332 3323</a></p>
+            </div>
+             <div class="model">
+            <p><strong>Correo Electrónico:</strong> <a href="mailto:contacto@casabaca.com">contacto@casabaca.com</a></p>
+        </div>
+           
+        </div>
+
+        <div class="form-section">
+            <h2>Envíanos un mensaje</h2>
+            <form action="https://www.casabaca.com/contactanos/" method="post">
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" maxlength="280" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Enviar Mensaje">
+                </div>
+            </form>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/casabaca" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/casabaca" target="_blank">Instagram</a>
+            <a href="https://twitter.com/casabaca" target="_blank">Twitter</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Casabaca S.A. Todos los derechos reservados.</p>
+    </div>
+
+</body>
+</html>
